@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li data-id="1" data-email="joaorangel@gmial.com">João Rangel</li>
+        <li data-id="2" data-email="galucio@hcode.com">Glaucio Daniel</li>
+    </ul>
+
+    <script>
+    document.querySelectorAll('li').forEach(li1 => {
+        console.log(li1.dataset);
+    });
+    console.log('#######################################')
+    document.querySelectorAll('li').forEach(li2 => {
+        console.log(li2.dataset.email);
+    });
+    </script>
+</body>
+</html>

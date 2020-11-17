@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag toggle</title>
+  </head>
+  <body>
+    <details ontoggle="debug(event)">
+      <summary>Hcode</summary>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A qui placeat
+        iure natus consectetur, dolorem tempore, distinctio perferendis quis non
+        debitis hic sapiente in nostrum eligendi necessitatibus adipisci nobis
+        inventore.
+      </p>
+    </details>
+
+    <script>
+        function debug(event) {
+            console.log("Event:", event.type);
+        }
+
+    </script>
+  </body>
+</html>
